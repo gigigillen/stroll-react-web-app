@@ -26,6 +26,7 @@ export default function Table() {
 
                 <tbody>
                     {users
+                        .filter((user) => user.userType === "STROLLER")
                         .sort((a: any, b: any) => b.streak - a.streak)
                         .map((user: any, index: number) => (
                             <tr key={user._id}>
