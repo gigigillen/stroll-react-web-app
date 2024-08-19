@@ -1,0 +1,15 @@
+
+.image-container-review {
+    width: 300px; /* Set the container width */
+    height: 100%; /* Set the container height */
+    overflow: hidden; /* Hide any overflow from the image */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wd-people-details {
+    overflow-y: auto;
+    max-height: 100vh; /* Ensures the side pop-up doesn't exceed the viewport height */
+  }
+  
